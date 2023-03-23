@@ -3,6 +3,7 @@ programa
 	funcao inicio()
 	{
 		real a, b, c, m
+
 		escreva("Digite o primeiro número: ", "\n")
 		leia(a)
 		escreva("Digite o segundo número: ", "\n")
@@ -10,12 +11,11 @@ programa
 		escreva("Digite o terceiro número: ", "\n")
 		leia(c)
 		
-		m=(a+b)/c
-		escreva("O resultado é: ", "\n", m)
-	
+		m = (a+b)/c
+		escreva("O resultado é: \n", m)
 	}
 }
-/* $$$ Portugol Studio $$$ 
+/* $$$ Portugol Studio $$$
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.

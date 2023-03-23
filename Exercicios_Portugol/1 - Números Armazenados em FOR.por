@@ -2,11 +2,11 @@ programa
 {
 	funcao inicio()
 	{
-		inteiro num[15], cont
+		inteiro num[15], cont = 0
 
 		para(cont=0; cont<=14; cont++)
 		{
-			escreva("Digite o ",cont, "É número: ")
+			escreva("Digite o ",cont, "º número: ")
 			leia(num[cont])
 		}
 		escreva("Os números fornecidos são: ")
@@ -16,7 +16,7 @@ programa
 		}
 	}
 }
-/* $$$ Portugol Studio $$$ 
+/* $$$ Portugol Studio $$$
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.

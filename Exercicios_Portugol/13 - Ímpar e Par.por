@@ -9,13 +9,13 @@ programa
 
 		se(num%2==0)
 		{
-			escreva("ESSE NÚMERO É PAR")
+			escreva("Esse número é par")
+		}senao{
+		 	escreva("Esse número é impar")
 		}
-		 senao 
-		 escreva("ESSE NÚMERO É IMPAR")
 	}
 }
-/* $$$ Portugol Studio $$$ 
+/* $$$ Portugol Studio $$$
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.

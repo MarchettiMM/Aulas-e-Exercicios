@@ -6,22 +6,22 @@ programa
 
 		faca
 		{
-			escreva("Digite o ",cont, "É número: ")
+			escreva("Digite o ",cont, "º número: ")
 			leia(num[cont])
-			cont=cont+1
+			cont = cont+1
 			
-		}enquanto(cont<=14)
-		escreva("Os números fornecidos são: ")
-		cont=0
-		faca
-		{
-			escreva(num[cont],"; ")
-			cont = cont + 1
-			
-		}enquanto(cont<=14)
+		}enquanto(cont<=14){
+			escreva("Os números fornecidos são: ")
+			cont = 0
+			faca
+			{
+				escreva(num[cont],"; ")
+				cont = cont+1
+			}
+		}
 	}
 }
-/* $$$ Portugol Studio $$$ 
+/* $$$ Portugol Studio $$$
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.

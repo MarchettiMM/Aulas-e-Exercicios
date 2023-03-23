@@ -2,19 +2,18 @@ programa
 {
 	funcao inicio()
 	{
-		real ht,tm, m
+		real ht, tm, m
+
 		escreva("Digite o valor da hora de trabalho: ")
 		leia(ht)
 		
-		tm= ht*720
-		m= tm*0.10
+		tm = ht*720
+		m = tm*0.10
 
 		escreva("O valor a ser pago, é: ", "\n", m)
-
-		
 	}
 }
-/* $$$ Portugol Studio $$$ 
+/* $$$ Portugol Studio $$$
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.

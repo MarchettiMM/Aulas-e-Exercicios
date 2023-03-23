@@ -8,18 +8,15 @@ programa
 		escreva("Digite um número positivo: ")
 		leia(numero)
 
-		
-
 		se(numero>0){
-		raiz= mat.raiz(numero, 2.0)
-		escreva("Sua raiz é: ", raiz)
+			raiz = mat.raiz(numero, 2.0)
+			escreva("Sua raiz é: ", raiz)
+		}senao{
+			escreva(">>Número inválido<<")
 		}
-		senao
-		escreva(">>NÚMERO INVALIDO<<")
-		
 	}
 }
-/* $$$ Portugol Studio $$$ 
+/* $$$ Portugol Studio $$$
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.

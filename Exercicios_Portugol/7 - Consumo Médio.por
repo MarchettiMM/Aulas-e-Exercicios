@@ -3,16 +3,16 @@ programa
 	funcao inicio()
 	{
 		real cm, dt, l
+
 		escreva("Digite distância total percorrida: ", "\n" )
 		leia(dt)
-		escreva("Digite o total de combustivel gasto: ", "\n")
+		escreva("Digite o total de combustível gasto: ", "\n")
 		leia(l)
-		cm= dt/l
+		cm = dt/l
 		escreva("O consumo médio é: ", "\n", cm)
-		
 	}
 }
-/* $$$ Portugol Studio $$$ 
+/* $$$ Portugol Studio $$$
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.

@@ -10,26 +10,26 @@ programa
 		escreva("Digite o ano de seu aniversário: ")
 		leia(dn)
 
-		at=at-dn
+		at = at-dn
 
 		se(at<=15){
 			escreva("Infantil")
-		}
-		senao
-		se((at==16)ou(at==17)){
-			escreva("Juvenil")
-		}
-		senao
-		se((at>=20)ou(at<=23)){
-			escreva("Sub-23")
-		}
-		senao
-		se(at>=24){
-			escreva("Sênior")
+		}senao{
+			se((at==16) ou (at==17)){
+				escreva("Juvenil")
+			}senao{
+				se((at>=20) ou (at<=23)){
+					escreva("Sub-23")
+				}senao{
+					se(at>=24){
+						escreva("Sênior")
+					}
+				}
+			}
 		}
 	}
 }
-/* $$$ Portugol Studio $$$ 
+/* $$$ Portugol Studio $$$
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.

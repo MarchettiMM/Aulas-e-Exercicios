@@ -5,41 +5,40 @@ programa
 		inteiro semana
 
 		escreva("Digite um número referente a semana: ")
-          leia(semana)
+        	leia(semana)
 
-          escolha(semana){
-          	caso 1: 
-          	escreva("DOMINGO")
-          	pare
+        escolha(semana){
+      		caso 1:
+    	  		escreva("Domingo")
+       			pare
 
-          	caso 2: 
-          	escreva("SEGUNDA-FEIRA")
-          	pare
+          	caso 2:
+   	      		escreva("Segunda-Feira")
+       	  		pare
 
-          	caso 3:
-          	escreva("TERÇA-FEIRA")
-          	pare
+       		caso 3:
+   		   		escreva("Terça-Feira")
+   		   		pare
 
-          	caso 4: 
-          	escreva("QUARTA-FEIRA")
-          	pare
+          	caso 4:
+   	      		escreva("Quarta-Feira")
+       	  		pare
 
-          	caso 5:
-          	escreva("QUINTA-FEIRA")
-          	pare
+       		caso 5:
+       			escreva("Quinta-Feira")
+       			pare
 
           	caso 6:
-          	escreva("SEXTA-FEIRA")
-          	pare
+   	      		escreva("Sexta-Feira")
+       	  		pare
 
-          	caso 7:
-          	escreva("SÁBADO")
-          	pare
-          }
-	
+       		caso 7:
+       			escreva("Sábado")
+       			pare
+       	}
 	}
 }
-/* $$$ Portugol Studio $$$ 
+/* $$$ Portugol Studio $$$
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.

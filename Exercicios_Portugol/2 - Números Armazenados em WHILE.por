@@ -6,20 +6,20 @@ programa
 
 		enquanto(cont<=14)
 		{
-			escreva("Digite o ",cont, "É número: ")
+			escreva("Digite o ",cont, "º número: ")
 			leia(num[cont])
-			cont = cont + 1
+			cont = cont+1
 		}
 		escreva("Os números fornecidos são: ")
 		cont = 0
 		enquanto(cont<=14)
 		{
 			escreva(num[cont],"; ")
-			cont = cont + 1
+			cont = cont+1
 		}
 	}
 }
-/* $$$ Portugol Studio $$$ 
+/* $$$ Portugol Studio $$$
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.

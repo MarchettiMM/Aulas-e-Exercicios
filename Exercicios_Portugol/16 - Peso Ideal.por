@@ -4,27 +4,25 @@ programa
 	{
 		real a,s,m,h
 
-		escreva("INFORME SUA ALTURA: ")
+		escreva("Informe sua altura: ")
 		leia(a)
 
-		escreva("SE FOR MULHER, DIGITE 1; SE FOR HOMEM, DIGITE 2: ")
+		escreva("Se for Mulher, digite 1; Se for Homem, digite 2: ")
 		leia(s)
 
-		h=(72.7*a)/58
-          m=(62.1*a)/44.7
+		h = (72.7*a)/58
+        m = (62.1*a)/44.7
 
-          se(s==1){
-          escreva("O PESO IDEAL É: ", m)
-          }
-
-          se(s==2){
-          escreva("O PESO IDEAL É: ", h)
-          }
-         
-          
+        se(s==1){
+        	escreva("O peso ideal é: ", m)
+        }senao{
+	        se(s==2){
+    		    escreva("O peso ideal é: ", h)
+        	}
+		}
 	}
 }
-/* $$$ Portugol Studio $$$ 
+/* $$$ Portugol Studio $$$
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.

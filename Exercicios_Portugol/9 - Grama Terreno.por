@@ -11,14 +11,13 @@ programa
 		escreva("Digite o preço da grama: ")
 		leia(grama)
 		
-		m=largura*comprimento
-		n=m*grama
+		m = largura*comprimento
+		n = m*grama
 
 		escreva("O preço da grama será: ", n)
-		
 	}
 }
-/* $$$ Portugol Studio $$$ 
+/* $$$ Portugol Studio $$$
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.

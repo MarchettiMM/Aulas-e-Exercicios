@@ -4,22 +4,22 @@ programa
 	{
 		real salario, emprestimo, porcento
 
-		escreva("DIGITE O SALARIO: ")
+		escreva("Digite o salário: ")
 		leia(salario)
 
-		escreva("DIGITE O VALOR DA PARCELA DO EMPRESTIMO: ")
+		escreva("Digite o valor da parcela do empréstimo: ")
 		leia(emprestimo)
 
-		porcento=emprestimo*100/salario
+		porcento = emprestimo*100/salario
 
-		se(porcento<30 ){
-		escreva("Emprestimo concedido.")
+		se(porcento < 30 ){
+			escreva("Empréstimo concedido.")
+		}senao{
+			escreva("Empréstimo não concedido")
 		}
-		senao 
-		escreva("Emprestimo não concedido")
 	}
 }
-/* $$$ Portugol Studio $$$ 
+/* $$$ Portugol Studio $$$
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.

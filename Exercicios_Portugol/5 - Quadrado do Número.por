@@ -3,13 +3,14 @@ programa
 	funcao inicio()
 	{
 		real numero
+
 		escreva("Digite um número: ")
-		leia (numero)
-		numero= numero*numero
+		leia(numero)
+		numero = numero*numero
 		escreva("O valor quadrado do número é: ", numero)
 	}
 }
-/* $$$ Portugol Studio $$$ 
+/* $$$ Portugol Studio $$$
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.

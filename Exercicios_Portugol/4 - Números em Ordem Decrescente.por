@@ -18,11 +18,11 @@ programa
 			}
 		}
 		para(i=0; i<=4; i++){
-			escreva(n[i],"  ")
+			escreva(n[i], "  ")
 		}
 	}
 }
-/* $$$ Portugol Studio $$$ 
+/* $$$ Portugol Studio $$$
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
