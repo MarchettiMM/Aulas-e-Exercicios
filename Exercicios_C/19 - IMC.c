@@ -1,32 +1,34 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Calcula o IMC de uma pessoa
+
 int main()
 {
-   float p,a,imc;
+    float p, a, imc;
 
+    printf("Informe o peso: \n");
+    scanf("%f", &p);
+    printf("Informe a altura: \n");
+    scanf("%f", &a);
 
-   printf("INFORME O PESO: \n");
-   scanf("%f", &p);
-   printf("INFORME A ALTURA: \n");
-   scanf("%f", &a);
+    imc = p / (a * a);
 
-   imc=p/(a*a);
-
-   if (imc<18.5){
-    printf("abaixo do peso");
-   }
-   if ((imc>=18.5)&&(imc<=24.9)){
-    printf("peso normal");
-   }
-   if ((imc>=25)&&(imc<=29.9)){
-    printf("acima do peso");
-   }
-   if (imc>=30){
-    printf("obesidade");
-   }
-
-
-
+    if (imc < 18.5)
+    {
+        printf("Abaixo do peso");
+    }
+    if ((imc >= 18.5) && (imc <= 24.9))
+    {
+        printf("Peso normal");
+    }
+    if ((imc >= 25) && (imc <= 29.9))
+    {
+        printf("Acima do peso");
+    }
+    if (imc >= 30)
+    {
+        printf("Obesidade");
+    }
     return 0;
 }

@@ -1,22 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
+// Calcula a soma acumulada de um vetor de 10 posições
 
-    int vet[10], i, j, aux;
-    for (i=0;i<10;i++){
-        printf ("Digite um numero: ");
-        scanf ("%d", &vet[i]);
-        }
-    for(i=0;i<10;i++){
-        for (j=i;j<11;j++){
-            if (vet[i]>vet[i+1]) {
-                aux=vet[i];
-                vet[i]=vet[i+1];
-                vet[i+1]=aux;
-            }
-        }
+int main()
+{
+    int vet[10], soma = 0, i;
+
+    for (i = 0; i < 10; i++)
+    {
+        printf("Digite um número: ");
+        scanf("%d", &vet[i]);
     }
-    printf("\nNumero: %d", vet[i]);
+    for (int i = 0; i < 10; i++)
+    {
+        soma += vet[i]; // adiciona o valor do elemento atual à soma acumulada
+    }
+    printf("Soma acumulada dos elementos: %d\n", soma);
     return 0;
 }

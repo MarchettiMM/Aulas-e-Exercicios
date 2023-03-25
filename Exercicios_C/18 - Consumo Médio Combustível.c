@@ -1,19 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Calcula o consumo médio de combustível de um carro
+
 int main()
 {
-    float km,l,c;
+    float km, l, c;
 
-  printf("DIGITE A QUILOMETRAGEM PERCORRIDA: \n");
-  scanf("%f", &km);
+    printf("Digite a quilometragem percorrida: \n");
+    scanf("%f", &km);
 
-  printf("DIGITE A QUANTIDADE DE COMBUSTiVEL CONSUMIDO: \n");
-  scanf("%f", &l);
+    printf("Digite a quantidade de combustível consumido: \n");
+    scanf("%f", &l);
 
-  c = km/l;
+    c = km / l;
 
-  printf("O CONSUMO MEDIO EH: \n");
-  printf("%.3f KM/L\n", c);
+    printf("O consumo médio é: \n");
+    printf("%.3f km/l\n", c);
     return 0;
 }
